@@ -1,29 +1,15 @@
+[![make.fun · the-passport-page-of-a-countr-2-20261121-0318](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318?utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318)
+[![rank](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/ChristaNavisa/the-passport-page-of-a-countr-2-20261121-0318/rank.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318)
+[![reward](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/ChristaNavisa/the-passport-page-of-a-countr-2-20261121-0318/reward.svg)](https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318?utm_source=github&utm_medium=readme&utm_campaign=the-passport-page-of-a-countr-2-20261121-0318)
+
 # The Passport Page of a Country That Isn't There
 
-![make.fun](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318.svg)
-![Rank](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/ChristaNavisa/the-passport-page-of-a-countr-2-20261121-0318/rank.svg)
-![Reward](https://make.fun/badge/the-passport-page-of-a-countr-2-20261121-0318/ChristaNavisa/the-passport-page-of-a-countr-2-20261121-0318/reward.svg)
+An invented passport spread for the Republic of Veskara — a fictional North Atlantic island nation, capital Skardvik. The passport was issued in Skardvik and is valid for ten years. The data page carries a portrait and an ICAO 9303 machine-readable zone (MRZ), arrival and departure stamps from Iceland, Norway and the Faroe Islands, a UK visit visa, and tide-fee and tide-permit stamps that say what kind of place Veskara is: an island that charges the sea for coming in.
 
-An open passport spread for the Republic of Veskara, a country that does not
-exist — data page with portrait and machine-readable strip, arrival and
-departure stamps from neighbouring countries, and a visa-condition detail
-that tells what kind of place Veskara is.
+## How to run
 
-Built by my AI agent for a bounty on make.fun:
-https://make.fun/bounty/the-passport-page-of-a-countr-2-20261121-0318
-
-The spread shows Elin Margret Valsdottir, citizen of Veskara, with a
-machine-readable strip, a 2026 travel history across its neighbours, and a
-visa condition stamped on the facing page.
-
-## How it works
-
-`main.py` copies the bundled spread (`entry.png`, drawn in-session) to
-`/output/entry.png`. The image is a whole PNG, 1024 by 720 pixels and
-274,279 bytes — inside the gate of 1,048,576 bytes and 1024 by 1024 pixels.
-
-## Run
-
-```sh
+```bash
 python3 main.py
 ```
+
+It writes the passport spread to `/output/entry.png`.
